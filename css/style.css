@@ -1,0 +1,360 @@
+/*INDEX*/
+body{
+   display: flex;
+   justify-content: flex-end;
+ 
+}
+
+
+.bg_animacion{
+    width: 1000px;
+    height: 1500vh;
+    background: linear-gradient(to right , red ,blue);
+   
+    
+}
+.header_nav{
+    width: 1300px;
+    margin: center;
+}
+.header_nav h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+.header_nav nav a {
+     color: chartreuse;
+     text-decoration: none;
+     margin-right: 10px;
+}
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+.banner_titulo h2{
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 90px;
+}
+.banner_titulo .llamanos{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: rgb(146, 22, 204);
+    padding: 20px;
+    border-radius: 30px;
+}
+.banner_img img {
+    width: 400px;
+    display: block;
+   
+}
+.banner_img {
+    animation: movimiento 2.5s linear infinite;
+}
+.burbujas {
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+    position: absolute;
+    bottom: 0;
+    animation: burbujas 3s linear infinite;
+}
+.burbujas:nth-child(1){
+    width: 80px;
+    height: 90px;
+   animation-duration:  4s;
+   left: 50px;
+   
+}
+.burbujas:nth-child(2){
+    width: 800px;
+    height: 100px;
+   animation-duration:  4s;
+   left: 46px;
+}
+
+
+
+@keyframes burbujas  {
+    0%{
+        opacity: 0;
+        bottom: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+
+    }
+}
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+footer{
+    position:relative;
+    width: 100%;
+    height: auto;
+    padding : 90px 80px;
+     flex-wrap: wrap;
+}
+footer .conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500px;
+
+    
+}
+footer .conteiner p{
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sci li a{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    background: black;
+    text-decoration: none;
+     justify-content: center;
+    align-items: center;
+    margin-right: 800px;
+    border-radius: 4px;
+}
+.sci li a:hover{
+    background: #F00;
+}
+.contacto{
+    display: flex;
+    position:absolute;
+    font-size: medium;
+     
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+/*INSTRUMENTOS*/
+
+
+
+
+
+
+
+/*CONTACTOS*/
+
+
+
+.form-registro{
+    width: 400px;
+    background-color: black;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+     'Trebuchet MS', sans-serif;
+     text-align: center;
+     font-size: 3em;
+    color: darkmagenta;
+    box-shadow: 0 0 20 0 rgba(255, 255,255 , .3);
+   
+}
+body{
+    background-color: rgb(43, 0, 16);
+}
+
+
+.controls {
+        width: 100%;
+         background: black;
+         padding: 10px;
+         border-radius: 4px;
+         margin-bottom: 16px;
+         border: 1px solid #14afca;
+         font-family: calibri;
+         font-size: 18px;
+         background: #222222;
+         outline: 0;
+         color: #fff;
+        }
+       
+.boton {
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: black;
+    color: rgb(179, 9, 156);
+
+
+
+}
+
+.contacinfo{
+    text-align:center;
+    font-size: 30px;
+    background: rgb(190, 58, 58);
+    font-size: 30px;}
+
+
+.contacinfo h4
+.contacinfo ul
+.contacinfo {
+    text-align: center;
+    margin: 0 0 1rem 0 ;
+
+}
+.contacinfo ul {
+    list-style: none;
+    padding: 0;
+}
+@media(min-width: 700px)
+    body (
+        padding: 0 4rem ;)
+     
+    .form-registro{
+       display:grid
+        grid-template-columns:(2fr 1fr ;)
+    }
+
+    
+    .contacinfo h4
+    .contacinfo ul {
+        padding: 1em;
+
+
+    }
+    
+
+    
+
+
+
+
+
+
+
+
+
+/*PROFESORES*/
+
+main> .conteiner{
+    padding: 30px  50px;
+    
+}
+
+
+
+
+
+
+
+
+/*CURSOS*/
+
+
+
+.heading{
+    text-align: center;
+    background: green;
+    text-transform: uppercase;
+    padding: 1rem;
+    
+
+
+}
+.detalles.CAJA-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TEXTO{
+  font-family: cursive;
+  color: white;
+}
+
+.TITULO{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.CURSO {
+  background-color: black;
+}
+
+/nuestro local*/
+
+.piede-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: (3fr ,1fr);
+    padding: 45px 0px;
+}
+.piede-pagina .grupo-1 .caja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+
+}
+nuestro local
+
+
+
+
+           
+
+
+        
+
+
+
+        
+
+
+
+
