@@ -1,0 +1,31 @@
+
+
+
+  
+  body{
+    background-color: rgb(160, 132, 211);
+  }
+  .mano{
+    border: 1em solid black;
+
+  }
+  .card-text{
+    color: white;
+    te
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+ 
+ /index/
+ 
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }

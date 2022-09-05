@@ -1,173 +1,43 @@
 /*INDEX*/
+.ccc{
+    box-sizing: border-box;
+}
 body{
-   display: flex;
-   justify-content: flex-end;
- 
-}
-
-
-.bg_animacion{
-    width: 1000px;
-    height: 1500vh;
-    background: linear-gradient(to right , red ,blue);
+    background: linear-gradient(to right , rgb(43, 42, 42) ,rgb(223, 11, 177));
    
+}
+.carousel-item {
+    border: 4px solid black;
     
 }
-.header_nav{
-    width: 1300px;
-    margin: center;
+.text-center{
+    color: rgb(186, 25, 226);
+    text-align: center;
 }
-.header_nav h1{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 70px;
-}
-.header_nav nav a {
-     color: chartreuse;
-     text-decoration: none;
-     margin-right: 10px;
-}
-.header_nav .contenedor{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-}
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 400px;
-}
-.banner_titulo h2{
-    color: white;
-    font-size: 40px;
-    font-weight: normal;
-    margin-bottom: 90px;
-}
-.banner_titulo .llamanos{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    display: inline-block;
-    background: rgb(146, 22, 204);
-    padding: 20px;
-    border-radius: 30px;
-}
-.banner_img img {
-    width: 400px;
-    display: block;
-   
-}
-.banner_img {
-    animation: movimiento 2.5s linear infinite;
-}
-.burbujas {
-    width: 80px;
-    height: 90px;
-    border-radius: 50%;
-    background: #fff;
-    opacity: .3;
-    position: absolute;
-    bottom: 0;
-    animation: burbujas 3s linear infinite;
-}
-.burbujas:nth-child(1){
-    width: 80px;
-    height: 90px;
-   animation-duration:  4s;
-   left: 50px;
-   
-}
-.burbujas:nth-child(2){
-    width: 800px;
-    height: 100px;
-   animation-duration:  4s;
-   left: 46px;
-}
+.normal{
+    animation: fadeOutDown; 
+    animation-duration: 1s; 
 
-
-
-@keyframes burbujas  {
-    0%{
-        opacity: 0;
-        bottom: 0;
-    }
-    50%{
-        opacity: .4;
-    }
-    100%{
-        bottom: 100vh;
-        opacity: 0;
-
-    }
 }
-@keyframes movimiento{
-    0%{
-        transform: translateY(0);
+@media (min-width: 576px) {
+    body{
+        background-color: black;
     }
-    50%{
-        transform: translateY(30px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-footer{
-    position:relative;
-    width: 100%;
-    height: auto;
-    padding : 90px 80px;
-     flex-wrap: wrap;
-}
-footer .conteiner{
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-    color: black;
-    font-size: 30px;
-    font-weight: 500px;
-
     
-}
-footer .conteiner p{
-    color: rgb(5, 5, 5);
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sci li a{
-    display: inline-block;
-    width: 60px;
-    height: 40px;
-    display: flex;
-    background: black;
-    text-decoration: none;
-     justify-content: center;
-    align-items: center;
-    margin-right: 800px;
-    border-radius: 4px;
-}
-.sci li a:hover{
-    background: #F00;
-}
-.contacto{
-    display: flex;
-    position:absolute;
-    font-size: medium;
-     
-}
+
+ }
 
 
+@media (min-width: 768px) { body{
+    background-color: blueviolet;
+} }
 
 
-   
-
-
-
-
-
-
-
-
+@media (min-width: 992px) {
+    body{
+        background-color:linear-gradient(to right , rgb(43, 42, 42) ,rgb(223, 11, 177)); ;
+    }
+ }
 
 
 
@@ -176,8 +46,53 @@ footer .conteiner p{
 
 
 
+/*PROFESORES*/
+body{
+    background: linear-gradient(to right , rgb(43, 42, 42) ,rgb(223, 11, 177));
+}
+.text-primary{
+    animation: heartBeat ; 
+  animation-duration: 1s; 
+}
+.mano{
+    border: 4px solid black;
+    background-size: cover;
+  
+}
+.mb-0{
+    color: blueviolet;}
 
-/*INSTRUMENTOS*/
+.movimiento:hover{
+    transform: scale(1.1);
+    border: 1px solid #14afca;
+    box-shadow: 0px 0px 50px #fa0404;
+    cursor: pointer;
+}
+@media (min-width: 576px) {
+    body{
+        background-color: black;
+    }
+    
+
+ }
+
+
+@media (min-width: 768px) { body{
+    background-color: blueviolet;
+} }
+
+
+@media (min-width: 992px) {
+    body{
+        background-color:linear-gradient(to right , rgb(43, 42, 42) ,rgb(223, 11, 177)); ;
+    }
+ }
+
+
+
+
+
+
 
 
 
@@ -186,9 +101,6 @@ footer .conteiner p{
 
 
 /*CONTACTOS*/
-
-
-
 .form-registro{
     width: 400px;
     background-color: black;
@@ -253,51 +165,17 @@ body{
     padding: 0;
 }
 @media(min-width: 700px)
-    body (
-        padding: 0 4rem ;)
      
-    .form-registro{
-       display:grid
-        grid-template-columns:(2fr 1fr ;)
-    }
+        
+     
+   
+
 
     
-    .contacinfo h4
-    .contacinfo ul {
-        padding: 1em;
-
-
-    }
-    
-
-    
-
-
-
-
-
-
-
-
-
-/*PROFESORES*/
-
-main> .conteiner{
-    padding: 30px  50px;
-    
-}
-
-
-
-
-
 
 
 
 /*CURSOS*/
-
-
-
 .heading{
     text-align: center;
     background: green;
@@ -324,7 +202,7 @@ main> .conteiner{
   background-color: black;
 }
 
-/nuestro local*/
+nuestro local
 
 .piede-pagina .grupo-1{
     width: 100%;
@@ -341,20 +219,5 @@ main> .conteiner{
     width: 470px;
 
 }
-nuestro local
-
-
-
-
-           
-
-
-        
-
-
-
-        
-
-
-
+/*instrumentos/*
 
