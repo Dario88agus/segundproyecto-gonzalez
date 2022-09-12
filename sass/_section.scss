@@ -1,0 +1,19 @@
+#texto-abajo{
+    padding: 20px 0 ;
+    & p {
+       padding: 10px 20px 20px 0 ;
+       float: left;
+       font-size: 20px;
+    }
+    & img{
+        width: 190vh;
+        height: 500px;
+        padding: 10px 60px 0;
+        border-radius: 100px;
+    }
+    &  .display_1{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 80px;
+        
+        
+    }
